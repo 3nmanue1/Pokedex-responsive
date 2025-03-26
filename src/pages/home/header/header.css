@@ -1,0 +1,44 @@
+nav{
+    background: rgb(62, 113, 207);
+}
+.content-enca{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(62, 113, 207);
+    max-width: calc(100% - 30px);
+    margin: 0 auto;
+ 
+}
+.img-logo img{
+    height: 100px;
+}
+.buscador{
+    height: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 30px;
+    box-shadow: 1px 1px 4px #000;
+
+    @media screen and (max-width: 500px){
+        width: 50%;
+    }
+    
+}
+.icono{
+    width: 20%;
+    background: rgb(139, 131, 131);
+    height: 30px;
+    display: grid;
+    place-items: center;
+}
+.buscador input{
+    width: 80%;
+    padding: 4px 15px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: rgb(199, 187, 187);
+}
